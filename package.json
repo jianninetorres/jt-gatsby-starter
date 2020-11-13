@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "jt-gatsby-starter",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
@@ -11,21 +11,29 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "preload-fonts": "gatsby-preload-fonts"
   },
   "dependencies": {
     "gatsby": "^2.25.3",
+    "gatsby-plugin-favicon": "^3.1.6",
+    "gatsby-plugin-manifest": "^2.6.0",
+    "gatsby-plugin-preload-fonts": "^1.3.0",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "prettier": "2.1.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-hello-world.git"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-hello-world#readme",
+  "main": "gatsby-browser.js",
+  "author": "Jiannine Torres"
 }
